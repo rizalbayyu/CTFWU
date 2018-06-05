@@ -1,0 +1,171 @@
+We think someone is trying to transmit a flag over WorldChat. Unfortunately, there are so many other people talking that we can't really keep track of what is going on! Go see if you can find the messenger at shell2017.picoctf.com:44323. Remember to use Ctrl-C to cut the connection if it overwhelms you!
+
+Hint:
+- There are cool command line tools that can filter out lines with specific keywords in them. Check out 'grep'! You can use the '|' character to put all the output into another process or command (like the grep process)
+
+Solution:
+Connect menggunakan nc
+ketikan: nc shell2017.picoctf.com 44323 | grep flag                                                    
+Maka yang di tampilkan adalah list yang memiliki tulisan "flag"
+13:50:15 noihazflag: A huge moose has attacked my toes to c
+reate a self driving car                                   
+13:50:16 ihazflag: Scary pandas are the best of friends to 
+drink your milkshake                                       
+13:50:16 noihazflag: Hungry jackolanterns need to meet up t
+o drink your milkshake                                     
+13:50:16 ihazflag: You will never understand me to understa
+nd me                                                      
+13:50:17 whatisflag: We , in my opinion, are our best chanc
+e for the future of humanity                               
+13:50:17 whatisflag: Cats with hats give me hope to drink y
+our milkshake                                              
+13:50:17 whatisflag: Several heavily mustached dolphins wil
+l never be able for what, I do not know                    
+13:50:18 whatisflag: my parents give me hope for the future
+ of humanity                                               
+13:50:18 noihazflag: My sworn enemy will never understand m
+e for the future of humanity                               
+13:50:18 whatisflag: my homegirlz want to see me to help me
+ spell 'raspberry' correctly                               
+13:50:18 ihazflag: We give me hope for what, I do not know
+13:50:19 personwithflag: your dad has attacked my toes for 
+the future of humanity                                     
+13:50:19 ihazflag: A small moose totally understands me and
+ my pet sloth to generate fusion power                     
+13:50:21 noihazflag: my parents , in my well-educated opini
+on, are our best chance for what, I do not know            
+13:50:21 personwithflag: I totally understands me and my pe
+t sloth to understand me                                   
+13:50:22 personwithflag: A small moose gives me hope to mak
+e a rasberry pie                                           
+13:50:23 flagperson: this is part 1/8 of the flag - 7c20
+13:50:23 whatisflag: that guy from that movie totally under
+stands me and my pet sloth to drink your milkshake         
+13:50:23 personwithflag: A silly panda totally understands 
+me and my pet sloth to understand me                       
+13:50:24 personwithflag: My sworn enemy is our best chance 
+to generate fusion power                                   
+13:50:24 personwithflag: Hungry jackolanterns are the best 
+of friends to create a self driving car                    
+13:50:24 personwithflag: A huge moose gives me hope for the
+ future of humanity                                        
+13:50:24 ihazflag: Several heavily mustached dolphins want 
+to see me to help me spell 'raspberry' correctly           
+13:50:24 personwithflag: I gives me hope to understand me
+13:50:25 whatisflag: Only us have demanded my presence to m
+ake a rasberry pie                                         
+13:50:25 noihazflag: Only us , in my opinion, are our best 
+chance to help me spell 'raspberry' correctly              
+13:50:25 personwithflag: Scary pandas want to see me to mak
+e a rasberry pie                                           
+13:50:25 ihazflag: your dad wants to steal my sloth to make
+ a rasberry pie                                            
+13:50:25 personwithflag: Anyone but me totally understands 
+me and my pet sloth to drink your milkshake                
+13:50:25 whatisflag: A silly panda would like to meet you t
+o help me spell 'raspberry' correctly                      
+13:50:26 flagperson: this is part 2/8 of the flag - 77dc
+13:50:26 whatisflag: A huge moose is our best chance for th
+e future of humanity                                       
+13:50:28 ihazflag: Hungry jackolanterns give me hope for wh
+at, I do not know                                          
+13:50:28 whatisflag: Hungry jackolanterns are the best of f
+riends to drink your milkshake                             
+13:50:29 noihazflag: that guy from that movie will never un
+derstand me for the future of humanity                     
+13:50:30 whatisflag: Only us are the best of friends to gen
+erate fusion power                                         
+13:50:30 ihazflag: Anyone but me gives me hope to generate 
+fusion power                                               
+13:50:31 personwithflag: Scary pandas , in my opinion, are 
+our best chance to drink your milkshake                    
+13:50:31 personwithflag: You would like to meet you to unde
+rstand me                                                  
+13:50:32 whatisflag: my parents are the best of friends to 
+make a rasberry pie                                        
+13:50:32 whatisflag: your dad totally understands me and my
+ pet sloth to drink your milkshake                         
+13:50:33 ihazflag: my homie would like to meet you to drink
+ your milkshake                                            
+13:50:33 personwithflag: A small moose has attacked my toes
+ for what, I do not know                                   
+13:50:33 ihazflag: I has attacked my toes for what, I do no
+t know                                                     
+13:50:33 personwithflag: A small moose totally understands 
+me and my pet sloth for the future of humanity             
+13:50:33 ihazflag: my homie wants to steal my sloth for wha
+t, I do not know                                           
+13:50:33 ihazflag: my parents want to see me for the future
+ of humanity                                               
+13:50:34 noihazflag: my homegirlz , in my well-educated opi
+nion, are our best chance for the future of humanity       
+13:50:34 whatisflag: Cats with hats need to meet up to gene
+rate fusion power                                          
+13:50:35 personwithflag: I has attacked my toes to understa
+nd me                                                      
+13:50:35 ihazflag: my homie is our best chance to create a 
+self driving car                                           
+13:50:35 whatisflag: your dad totally understands me and my
+ pet sloth to generate fusion power                        
+13:50:35 flagperson: this is part 3/8 of the flag - 26c1
+13:50:35 personwithflag: My friend is our best chance to dr
+ink your milkshake                                         
+13:50:35 flagperson: this is part 4/8 of the flag - 6dc8
+13:50:35 noihazflag: my parents give me hope to generate fu
+sion power                                                 
+13:50:35 personwithflag: my parents , in my well-educated o
+pinion, are our best chance to create a self driving car   
+13:50:36 personwithflag: A silly panda gives me hope for th
+e future of humanity                                       
+13:50:36 noihazflag: Several heavily mustached dolphins are
+ the best of friends to understand me                      
+13:50:37 whatisflag: my homegirlz want to see me to drink y
+our milkshake                                              
+13:50:37 noihazflag: Only us have demanded my presence for 
+the future of humanity                                     
+13:50:37 personwithflag: I wants to see me to create a self
+ driving car                                               
+13:50:37 flagperson: this is part 5/8 of the flag - 1acd
+13:50:37 personwithflag: I gives me hope to make a rasberry
+ pie                                                       
+13:50:38 flagperson: this is part 6/8 of the flag - e49c
+13:50:38 ihazflag: a heavily bearded dolphin has attacked m
+y toes to create a self driving car                        
+13:50:39 flagperson: this is part 7/8 of the flag - d563
+13:50:41 whatisflag: Hungry jackolanterns , in my opinion, 
+are our best chance to drink your milkshake                
+13:50:42 noihazflag: my homie will never understand me to u
+nderstand me                                               
+13:50:42 ihazflag: A dog with a cape is our best chance to 
+understand me                                              
+13:50:43 personwithflag: A huge moose totally understands m
+e and my pet sloth for what, I do not know                 
+13:50:43 whatisflag: Only us give me hope to help me spell 
+'raspberry' correctly                                      
+13:50:43 personwithflag: A dog with a cape wants to steal m
+y sloth to understand me                                   
+13:50:44 ihazflag: my parents have demanded my presence to 
+drink your milkshake                                       
+13:50:44 personwithflag: Several heavily mustached dolphins
+ are the best of friends for what, I do not know           
+13:50:45 ihazflag: that girl from that movie totally unders
+tands me and my pet sloth for the future of humanity       
+13:50:46 personwithflag: Scary pandas , in my well-educated
+ opinion, are our best chance to make a rasberry pie       
+13:50:46 ihazflag: that guy from that movie has attacked my
+ toes to understand me                                     
+13:50:46 whatisflag: My friend totally understands me and m
+y pet sloth to help me spell 'raspberry' correctly         
+13:50:47 flagperson: this is part 8/8 of the flag - 0146
+13:50:47 personwithflag: a heavily bearded dolphin totally 
+understands me and my pet sloth to drink your milkshake    
+13:50:47 ihazflag: We give me hope to help me spell 'raspbe
+rry' correctly                                             
+13:50:47 ihazflag: Cats with hats want to see me to make a 
+rasberry pie                                               
+13:50:47 ihazflag: A silly panda will never understand me t
+o drink your milkshake                                     
+13:50:47 personwithflag: A dog with a cape wants to see me 
+to drink your milkshake  
+
+Flag: 7c2077dc26c16dc81acde49cd5630146                      
