@@ -1,0 +1,14 @@
+We found an even bigger directory tree hiding a flag starting at /problems/57a246295d1345729cbddf98c16fcaed. It would be impossible to find the file named flag manually...
+
+hint:
+Is there a search function in Linux? Like if I wanted to 'find' something...
+
+Solution:
+Pakai find
+find /problems/57a246295d1345729cbddf98c16fcaed
+Maka akan muncul listnya
+cari branch "flag"
+/problems/57a246295d1345729cbddf98c16fcaed/forest/treefced1e/trunka090/trunk957d/trunk6de6/trunke68e/trunkf287/trunk070b/trunke47a/branch4c77/flag
+Pakai cat untuk mendapatkan flagnya
+
+Flag: b51adfb58ec99a8c81db853c7acdd7bd
