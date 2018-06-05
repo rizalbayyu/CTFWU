@@ -1,0 +1,15 @@
+I was told there was something at IP shell2017.picoctf.com with port 58626. How do I get there? Do I need a ship for the port?
+
+Hint:
+- Look at using the netcat (nc) command!
+- To figure out how to use it, you can run "man nc" or "nc -h" on the shell, or search for it on the interwebz
+
+Solution:
+Cek cara menggunkan nc pada terminal
+Jika sudah maka coba nc shell2017.picoctf.com 58626
+Maka akan mendapatkan: 
+Yay! You made it!                                          
+Take a flag!                                               
+86c3b6dc83b85a2e67f0c163dd525cb0                           
+
+flag: 86c3b6dc83b85a2e67f0c163dd525cb0
