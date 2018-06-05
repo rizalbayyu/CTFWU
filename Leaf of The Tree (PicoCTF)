@@ -1,0 +1,79 @@
+We found this annoyingly named directory tree starting at /problems/4052472b84e355d1e1a42f5899fe0e76. It would be pretty lame to type out all of those directory names but maybe there is something in there worth finding? And maybe we dont need to type out all those names...? Follow the trunk, using cat and ls!
+
+Hint:
+- Tab completion is a wonderful, wonderful thing
+
+Solution:
+Pertama, mohon maaf, saya stuck di sini lama, akhirnya saya menggunakan perintah 'find'
+seperti ini:
+find /problems/4052472b84e355d1e1a42f5899fe0e76/
+
+Maka akan keluar hasil:
+/problems/4052472b84e355d1e1a42f5899fe0e76/                
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk           
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/branch04cf
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/branch04cf
+/leafd6ec                                                  
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/branch04cf
+/leaf6b5f                                                  
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b 
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1                                                  
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/branch1a36                                       
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/branch1a36/leaf33af                              
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4                                        
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/branch9b67                             
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/branch9b67/leafc6aa                    
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/branchb9e7                             
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/branchb9e7/leafc50a                    
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/trunk61be                              
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/trunk61be/branch00bc                   
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/trunk61be/branch00bc/leaf9ced          
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/trunk61be/branch00bc/leaf94f2          
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/trunk61be/trunk89be                    
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/trunk61be/trunk89be/trunk87bf          
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/trunk61be/trunk89be/trunk87bf/trunkb252
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/trunk61be/trunk89be/trunk87bf/trunkb252
+/branchd8bd                                                
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/trunk61be/trunk89be/trunk87bf/trunkb252
+/branchd8bd/leaf7420                                       
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/trunk61be/trunk89be/trunk87bf/trunkb252
+/flag                                                      
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/trunk61be/branchbe5f                   
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/trunk61be/branchbe5f/leaf4304          
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/trunk54f4/trunk61be/branchbe5f/leaf351b          
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/branch6b01                                       
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/branch6b01/leaf518f                              
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/branch6b01/leaf2ee6                              
+/problems/4052472b84e355d1e1a42f5899fe0e76/trunk/trunkef9b/
+trunk99e1/branch6b01/leaf41c0                              
+
+nah di sana, dat flag :v
+
+Tinggal pakai 'cat'
+
+And your flag is: aae8c400f845fd47fdbb6a77ba027771
+
