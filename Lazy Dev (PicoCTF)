@@ -1,0 +1,13 @@
+I really need to login to this website, but the developer hasn't implemented login yet. Can you help?
+
+HINT:
+- Where does the password check actually occur?
+- Can you interact with the javascript directly?
+
+Solution: 
+Inspect element
+Cek client.js
+Rubah syntax dari false ke true, agar bisa mendapatkan flagnya
+Gunakan scratchpad
+
+flag:client_side_is_the_dark_sidee5dbd5f8c6ae5e282766571e06569d50
